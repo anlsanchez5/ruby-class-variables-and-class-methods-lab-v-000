@@ -59,7 +59,7 @@ class Song
 
       elsif artist_count.keys.include?(artist)
         additional_count += 1
-        artist_count[arist] = additional_count + 1
+        artist_count[artist] = additional_count + 1
       end
     end
     artist_count
